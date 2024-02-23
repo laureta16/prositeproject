@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <!-- Mirrored from preview.colorlib.com/theme/glint/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Feb 2024 17:57:13 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Glint</title>
+    <meta name="description" content />
+    <meta name="author" content />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    
+    <script nonce="42661b29-dd07-4aa9-a336-79a7f51d0bf8">
+      try {
+        (function (w, d) {
+          !(function (j, k, l, m) {
+            j[l] = j[l] || {};
+            j[l].executed = [];
+            j.zaraz = { deferred: [], listeners: [] };
+            j.zaraz.q = [];
+            j.zaraz._f = function (n) {
+              return async function () {
+                var o = Array.prototype.slice.call(arguments);
+                j.zaraz.q.push({ m: n, a: o });
+              };
+            };
+            for (const p of ["track", "set", "debug"])
+              j.zaraz[p] = j.zaraz._f(p);
+            j.zaraz.init = () => {
+              var q = k.getElementsByTagName(m)[0],
+                r = k.createElement(m),
+                s = k.getElementsByTagName("title")[0];
+              s && (j[l].t = k.getElementsByTagName("title")[0].text);
+              j[l].x = Math.random();
+              j[l].w = j.screen.width;
+              j[l].h = j.screen.height;
+              j[l].j = j.innerHeight;
+              j[l].e = j.innerWidth;
+              j[l].l = j.location.href;
+              j[l].r = k.referrer;
+              j[l].k = j.screen.colorDepth;
+              j[l].n = k.characterSet;
+              j[l].o = new Date().getTimezoneOffset();
+              if (j.dataLayer)
+                for (const w of Object.entries(
+                  Object.entries(dataLayer).reduce(
+                    (x, y) => ({ ...x[1], ...y[1] }),
+                    {}
+                  )
+                ))
+                  zaraz.set(w[0], w[1], { scope: "page" });
+              j[l].q = [];
+              for (; j.zaraz.q.length; ) {
+                const z = j.zaraz.q.shift();
+                j[l].q.push(z);
+              }
+              r.defer = !0;
+              for (const A of [localStorage, sessionStorage])
+                Object.keys(A || {})
+                  .filter((C) => C.startsWith("_zaraz_"))
+                  .forEach((B) => {
+                    try {
+                      j[l]["z_" + B.slice(7)] = JSON.parse(A.getItem(B));
+                    } catch {
+                      j[l]["z_" + B.slice(7)] = A.getItem(B);
+                    }
+                  });
+              r.referrerPolicy = "origin";
+              r.src =
+                "../../cdn-cgi/zaraz/sd0d9.js?z=" +
+                btoa(encodeURIComponent(JSON.stringify(j[l])));
+              q.parentNode.insertBefore(r, q);
+            };
+            ["complete", "interactive"].includes(k.readyState)
+              ? zaraz.init()
+              : j.addEventListener("DOMContentLoaded", zaraz.init);
+          })(w, d, "zarazData", "script");
+        })(window, document);
+      } catch (e) {
+        throw (fetch("/cdn-cgi/zaraz/t"), e);
+      }
+    </script>
+  </head>
+  <body id="top">
+    <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img
+            src="images/Orange_and_Black_Modern_Architecture_Interior_Design_Logo__1_-removebg-preview.png"
+            alt="Homepage"
+          />
+        </a>
+      </div>
+      <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"
+          ><span>Close</span></a
+        >
+        <div class="header-nav__content">
+          <h3>Navigation</h3>
+          <ul class="header-nav__list">
+            <li class="current">
+              <a class="smoothscroll" href="#home" title="home">Home</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#about" title="about">About</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#services" title="services"
+                >Services</a
+              >
+            </li>
+          
+            <li>
+              <a class="smoothscroll" href="#contact" title="contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <p>
+            Empowering your digital journey with a innovative solutions and personalized experiences, every step of the way.
+          </p>
+          <ul class="header-nav__social">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/prosite.al/"><i class="fa fa-instagram"></i></a>
+            </li>
+          
+          </ul>
+        </div>
+      </nav>
+      <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
+      </a>
+    </header>
+    <section
+      id="home"
+      class="s-home target-section"
+      data-parallax="scroll"
+      data-image-src="images/hero-bg.jpg"
+      data-natural-width="3000"
+      data-natural-height="2000"
+      data-position-y="center"
+    >
+      <div class="overlay"></div>
+      <div class="shadow-overlay"></div>
+      <div class="home-content">
+        <div class="row home-content__main">
+          <h3>Welcome to ProSite</h3>
+          <h1>
+            We are a creative group <br />
+            of people who design <br />
+            influential brands and <br />
+            digital experiences.
+          </h1>
+          <div class="home-content__buttons">
+            <a href="#contact" class="smoothscroll btn btn--stroke">
+              Start a Project
+            </a>
+            <a href="#about" class="smoothscroll btn btn--stroke">
+              More About Us
+            </a>
+          </div>
+        </div>
+        <div class="home-content__scroll">
+          <a href="#about" class="scroll-link smoothscroll">
+            <span>Scroll Down</span>
+          </a>
+        </div>
+        <div class="home-content__line"></div>
+      </div>
+      <ul class="home-social">
+        <li>
+          <a href="#0"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+            ><span>Facebook</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fa fa-twitter" aria-hidden="true"></i
+            ><span>Twiiter</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+            ><span>Instagram</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fa fa-behance" aria-hidden="true"></i
+            ><span>Behance</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fa fa-dribbble" aria-hidden="true"></i
+            ><span>Dribbble</span></a
+          >
+        </li>
+      </ul>
+    </section>
+    <section id="about" class="s-about">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead subhead--dark">Hello There</h3>
+          <h1 class="display-1 display-1--light">We Are ProSite</h1>
+        </div>
+      </div>
+      <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+          <p>
+            Welcome to ProSite, your premier destination for digital excellence! 
+            We specialize in elevating brands through our expertise in Web Design, 
+            Web Development, Logo Design, and Social Media Management. 
+            With a focus on precision and professionalism, we tailor each solution to your 
+            unique needs, ensuring your brand stands out in the digital landscape. Whether 
+            you're in need of a stunning website, a robust online platform, a distinctive 
+            logo, or expert social media management, ProSite delivers results that exceed 
+            expectations. Let's 
+            take your brand to new heights – ProSite, where professionalism meets innovation.
+          </p>
+        </div>
+      </div>
+      <div
+        class="row about-stats stats block-1-4 block-m-1-2 block-mob-full"
+        data-aos="fade-up"
+      >
+      <div class="col-block stats__col">
+        <div class="stats__count">15</div>
+        <h5>Awards Received</h5>
+      </div>
+      <div class="col-block stats__col">
+        <div class="stats__count">55</div>
+        <h5>Cups of Coffee</h5>
+      </div>
+      <div class="col-block stats__col">
+        <div class="stats__count">45</div>
+        <h5>Projects Completed</h5>
+      </div>
+      <div class="col-block stats__col">
+        <div class="stats__count">40</div>
+        <h5>Happy Clients</h5>
+      </div>
+    </div>
+      <div class="about__line"></div>
+    </section>
+    <section id="services" class="s-services">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">What We Do</h3>
+          <h1 class="display-2">
+            We’ve got everything you need to launch and grow your business
+          </h1>
+        </div>
+      </div>
+      <div class="row services-list block-1-2 block-tab-full">
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="icon-paint-brush"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Brand Identity</h3>
+            <p>
+              Transform your brand with our Brand Identity service. 
+              We'll design a distinctive logo and visual style that 
+              reflects your business values and resonates with your audience. 
+              Stand out from the competition and build strong connections with your customers.
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="icon-megaphone"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Marketing</h3>
+            <p>
+              Accelerate your business growth with our expert Marketing services. 
+              From targeted campaigns to data-driven strategies, we specialize in 
+              driving results that matter. Let us help you expand your reach, increase brand awareness, 
+              and achieve your marketing goals with precision and professionalism.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="icon-earth"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Web Design</h3>
+            <p>
+              Elevate your digital footprint with our professional Web Design services. 
+              From sleek, user-friendly interfaces to seamless navigation, we specialize 
+              in creating websites that not only impress but also drive results. 
+              Let our expertise in design and functionality take your online presence to the next level, 
+              ensuring your brand stands out in the competitive digital landscape.
+            </p>
+          </div>
+        </div>
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon"><i class="icon-lego-block"></i></div>
+            <div class="service-text">
+              <h3 class="h2">Web Development</h3>
+              <p>
+                Empower your online presence with our expert Web Development services. 
+                From robust backend systems to responsive front-end interfaces, we specialize 
+                in building websites that are not just visually stunning but also highly functional. 
+                Let our team of skilled developers bring your digital vision to life, ensuring seamless
+                 performance and optimal user experience across all devices. 
+                Partner with us to take your online platform to new heights of success.
+              </p>
+            </div>
+          </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="icon-cube"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Social media managment package</h3>
+            <p>
+              Introducing our Social Media Management package: the ultimate solution to elevate your 
+              online presence. From captivating content to strategic engagement, we handle it all, 
+              so you can focus on what you do best - running your business. Let us amplify your brand's voice, increase your reach, and foster meaningful connections with your audience. 
+              Elevate your social media game with our professional expertise and watch your brand soar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>      
+    <section id="contact" class="s-contact">
+      <div class="overlay"></div>
+      
+      <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">Hey Folks!</h3>
+          <h1 class="display-2 display-2--light">
+            Reach out for a new project, question or just to say hello,
+            we love making new friends here!
+          </h1>
+        </div>
+      </div>
+      <div class="row contact-content" data-aos="fade-up">
+        <div class="contact-primary">
+          <h3 class="h6">Send Us A Message</h3>
+          <form
+            name="contactForm"
+            id="contactForm"
+            method="post"
+            action
+            novalidate="novalidate"
+          >
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Your Name"
+                  value
+                  minlength="2"
+                  required
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Your Email"
+                  value
+                  required
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Subject"
+                  value
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="10"
+                  cols="50"
+                  required
+                  aria-required="true"
+                  class="full-width"
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="full-width btn--primary">Submit</button>
+                <div class="submit-loader">
+                  <div class="text-loader">Sending...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+          <div class="message-warning">
+            Something went wrong. Please try again.
+          </div>
+          <div class="message-success">
+            Your message was sent, thank you!<br />
+          </div>
+        </div>
+        <div class="contact-secondary">
+          <div class="contact-info">
+            <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+            
+            <div class="cinfo">
+              <h5>Email Us At</h5>
+              <p>
+                contactprositeagency@gmail.com
+                <br />
+                infoprositeagency@gmail.com
+              </p>
+            </div>
+
+            <ul class="contact-social">
+              <li>
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/prosite.al/"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer-main">
+        <div class="col-six tab-full left footer-desc">
+          <div class="footer-logo"></div>
+          
+Stay connected with us on our social media channels for the latest updates and information. Don't forget to follow us and reach out with any questions or inquiries – we're here to help!
+        </div>
+        <div class="col-six tab-full right footer-subscribe">
+          <h4>Get Notified</h4>
+          <p>
+            Experience the power of ProSite's instant notifications, keeping you informed and empowered every step of the way. Stay ahead of trends, track progress effortlessly, and seize opportunities with real-time updates customized to your needs. Elevate your digital journey with ProSite.
+          </p>
+          <div class="subscribe-form">
+            <form id="mc-form" class="group" novalidate="true">
+              <input
+                type="email"
+                value
+                name="EMAIL"
+                class="email"
+                id="mc-email"
+                placeholder="Email Address"
+                required
+              />
+              <input type="submit" name="subscribe" value="Subscribe" />
+              <label for="mc-email" class="subscribe-message"></label>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright ProSite 2024</span>
+            <span>Site Template by
+              <a
+                href="https://www.instagram.com/prosite.al/?next=%2F"
+                target="_blank"
+                rel="nofollow noopener"
+                >ProSite</a>
+              </span>
+          </div>
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"
+              ><i class="icon-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="preloader">
+      <div id="loader">
+        <div class="line-scale-pulse-out">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div> 
+    <script
+      data-cfasync="false"
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  
+  </body>
+</html>
